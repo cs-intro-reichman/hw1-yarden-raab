@@ -6,6 +6,6 @@ public class Bill3 {
 		String name2 = args[1];
 		String name3 = args[2];
 		int price = Integer.parseInt(args[3]);
-	    System.out.println("Dear "+ name3 + ", " + name2 + ", and " + name1 + ": pay " + Math.ceil(price/3.0) + " Shekel each");
+	    System.out.println("Dear "+ name3 + ", " + name2 + ", and " + name1 + ": pay " + Math.ceil(price/3.0) + " Shekels each");
 	}
 }
