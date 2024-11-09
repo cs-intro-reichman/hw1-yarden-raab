@@ -8,7 +8,7 @@ public class Ascend {
 		int c = (int) (Math.random() * lim);
 		int max = Math.max(Math.max(a, b), c);
 		int min = Math.min(Math.min(a, b), c);
-		int mid = Math.max(Math.min(a, b), Math.min(b, c));
+		int mid = Math.max(Math.min(a, b), Math.max(Math.min(b, c), Math.min(c, a)));
 		System.out.println( a + " " + b + " " + c);
 		System.out.println( min + " " + mid + " " +max );
 
